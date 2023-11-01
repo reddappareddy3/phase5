@@ -1,28 +1,22 @@
 READ.me:
 
-# House Price Prediction System
+Diabetes Prediction System
+This project is a simplified example of a diabetes prediction system using machine learning. It includes data preprocessing, model training, and evaluation.
 
-This project is a basic example of a House Price Prediction System using Python and scikit-learn. It includes data preprocessing, model training, and evaluation.
+Dependencies
+Python 3.x
+Pandas
+NumPy
+Scikit-learn
+Dataset
+The dataset used in this project is the Pima Indians Diabetes Database. You can download it from [source_link_here] and save it as "diabetes_data.csv" in the project directory.
 
-## Dependencies
-
-- Python 3.x
-- Pandas
-- scikit-learn
-
-## Dataset
-
-The dataset used in this project is a sample dataset containing house features and prices. You can download it [here](dataset_link) and save it as "house_prices.csv" in the project directory.
-
-## Running the Code
-
-1. Clone the project repository.
-2. Install the required dependencies if you haven't already (e.g., `pip install pandas scikit-learn`).
-3. Download the dataset and save it as "house_prices.csv" in the project directory.
-4. Run the Python script: `python house_price_prediction.py`.
-
-## Results
-
-The code will train a random forest regressor on the dataset and provide mean absolute error, mean squared error, and R-squared (R2) score as the evaluation results.
+Running the Code
+Clone the project repository.
+Install the required dependencies if you haven't already (e.g., pip install pandas numpy scikit-learn).
+Download the dataset and save it as "diabetes_data.csv" in the project directory.
+Run the Python script: python diabetes_prediction.py.
+Results
+The code will train a random forest classifier on the dataset and provide accuracy and classification report as the evaluation results.
 
 
